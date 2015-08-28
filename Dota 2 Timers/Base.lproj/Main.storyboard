@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dota_2_Timers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSI-PP-QkU" customClass="Timer" customModule="Dota_2_Timers" customModuleProvider="target">
+                                <rect key="frame" x="28" y="31" width="265" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="CMj-V5-bKc"/>
+                                    <constraint firstAttribute="height" constant="200" id="dOb-nd-zqd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ptD-Uo-wmB" customClass="Timer" customModule="Dota_2_Timers" customModuleProvider="target">
+                                <rect key="frame" x="28" y="270" width="265" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="5yl-aW-yhY"/>
+                                    <constraint firstAttribute="height" constant="200" id="bnI-We-vta"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lor-er-97h" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="510" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Sxq-Fd-Kvl"/>
+                                    <constraint firstAttribute="width" constant="320" id="wlF-jz-Vmo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lor-er-97h" secondAttribute="bottom" constant="8" symbolic="YES" id="2Fp-ch-xFx"/>
+                            <constraint firstItem="lor-er-97h" firstAttribute="centerX" secondItem="uSI-PP-QkU" secondAttribute="centerX" id="4Un-c4-2jA"/>
+                            <constraint firstItem="lor-er-97h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Htl-nw-8zV"/>
+                            <constraint firstItem="lor-er-97h" firstAttribute="centerX" secondItem="ptD-Uo-wmB" secondAttribute="centerX" id="bej-Yz-smg"/>
+                            <constraint firstItem="lor-er-97h" firstAttribute="top" secondItem="ptD-Uo-wmB" secondAttribute="bottom" constant="40" id="ijS-7t-ee7"/>
+                            <constraint firstItem="uSI-PP-QkU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="11" id="sbK-lE-Z5s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bannerView" destination="lor-er-97h" id="BhG-DR-iHG"/>
+                        <outlet property="timerGlyph" destination="ptD-Uo-wmB" id="VwF-pE-Zzf"/>
+                        <outlet property="timerRosh" destination="uSI-PP-QkU" id="uXU-ij-fIQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="290"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
