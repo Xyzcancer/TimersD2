@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77E91E871B911C7F008638E9 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */; };
 		E911405D1B84779C0005B3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911405C1B84779C0005B3CD /* AppDelegate.swift */; };
 		E91140601B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E911405E1B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld */; };
 		E91140621B84779C0005B3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91140611B84779C0005B3CD /* ViewController.swift */; };
@@ -17,7 +18,6 @@
 		E979FC761B847E520032674A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979FC751B847E520032674A /* Timer.swift */; };
 		E979FC791B8483400032674A /* roshan-dota-2-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E979FC781B8483400032674A /* roshan-dota-2-150x150.jpg */; };
 		E979FC7B1B848AA60032674A /* backgroundDotaImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E979FC7A1B848AA60032674A /* backgroundDotaImage.jpeg */; };
-		E9D7AC6C1B90C61700117343 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */; };
 		E9FB9F201B9094DB009A3064 /* TimerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */; };
 		E9FB9F301B90B673009A3064 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F2F1B90B673009A3064 /* AdSupport.framework */; };
 		E9FB9F321B90B686009A3064 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F311B90B686009A3064 /* AudioToolbox.framework */; };
@@ -42,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		77E91E7F1B911C66008638E9 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		77E91E801B911C66008638E9 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		77E91E811B911C66008638E9 /* GADMEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		77E91E821B911C66008638E9 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		77E91E831B911C66008638E9 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		77E91E841B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		77E91E851B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		E91140571B84779B0005B3CD /* Dota 2 Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E911405B1B84779C0005B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E911405C1B84779C0005B3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D7AC6C1B90C61700117343 /* GoogleMobileAds.framework in Frameworks */,
+				77E91E871B911C7F008638E9 /* GoogleMobileAds.framework in Frameworks */,
 				E9FB9F421B90B6FF009A3064 /* SystemConfiguration.framework in Frameworks */,
 				E9FB9F401B90B6EE009A3064 /* StoreKit.framework in Frameworks */,
 				E9FB9F3E1B90B6E0009A3064 /* MessageUI.framework in Frameworks */,
@@ -99,9 +107,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77E91E7C1B911C66008638E9 /* GoogleMobileAdsSdkiOS-7.4.1 */ = {
+			isa = PBXGroup;
+			children = (
+				77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */,
+				77E91E7E1B911C66008638E9 /* Mediation Adapters */,
+				77E91E851B911C66008638E9 /* README.txt */,
+			);
+			name = "GoogleMobileAdsSdkiOS-7.4.1";
+			path = "Dota 2 Timers/GoogleMobileAdsSdkiOS-7.4.1";
+			sourceTree = "<group>";
+		};
+		77E91E7E1B911C66008638E9 /* Mediation Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				77E91E7F1B911C66008638E9 /* GADMAdNetworkAdapterProtocol.h */,
+				77E91E801B911C66008638E9 /* GADMAdNetworkConnectorProtocol.h */,
+				77E91E811B911C66008638E9 /* GADMEnums.h */,
+				77E91E821B911C66008638E9 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				77E91E831B911C66008638E9 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				77E91E841B911C66008638E9 /* README.txt */,
+			);
+			path = "Mediation Adapters";
+			sourceTree = "<group>";
+		};
 		E911404E1B84779B0005B3CD = {
 			isa = PBXGroup;
 			children = (
+				77E91E7C1B911C66008638E9 /* GoogleMobileAdsSdkiOS-7.4.1 */,
 				E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */,
 				E9FB9F411B90B6FF009A3064 /* SystemConfiguration.framework */,
 				E9FB9F3F1B90B6EE009A3064 /* StoreKit.framework */,
@@ -422,6 +455,9 @@
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
+					"$(PROJECT_DIR)/Dota",
+					2,
+					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
 				);
 				INFOPLIST_FILE = "Dota 2 Timers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,6 +471,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Dota",
+					2,
+					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
