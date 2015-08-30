@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
        // self.bannerView.adUnitID = "ca-app-pub-7637463123579934/3407924800"
         self.bannerView.adUnitID = "ca-app-pub-3940256099942544/6300978111"
         self.bannerView.rootViewController = self
@@ -28,16 +28,19 @@ class ViewController: UIViewController {
         self.bannerView.loadRequest(request)
         
         
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "backgroundDotaImage.jpeg")!)
+        self.view.layer.contents = UIImage(named:"fon.png")!.CGImage
         
-        timerRosh.timerImage.image = UIImage(named: "roshan-dota-2-150x150.jpg")!
-        timerGlyph.timerImage.image = UIImage(named: "roshan-dota-2-150x150.jpg")!
         
-        timerRosh.timerValue =  720
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "")!)
+        
+        timerRosh.timerImage.image = UIImage(named: "roshan1osvg.png")!
+        timerGlyph.timerImage.image = UIImage(named: "glif11.png")!
+        
+        timerRosh.timerValue =  660
         timerGlyph.timerValue = 300
         
 
-        
+        //timerGlyph.progressIndicatorView.circleRadius = 30
       
         
     }

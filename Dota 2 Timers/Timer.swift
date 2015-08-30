@@ -35,8 +35,9 @@ class Timer: UIView {
         currentTimerValue = timerValue
         self.timerImage = UIImageView(frame: CGRectMake(0, 0, 265, 200))
         self.timerImage.image = UIImage()
-        self.timerValueLabel = UILabel(frame: CGRectMake(110, 20, 150, 30))
-        //self.timerValueLabel.text = getStringForTimer()
+        self.timerImage.contentMode = .ScaleAspectFit
+        self.timerValueLabel = UILabel(frame: CGRectMake(57, 35, 150, 30))
+        self.timerValueLabel.textAlignment = .Center
         self.timerValueLabel.textColor = UIColor.whiteColor()
         let tapG = UITapGestureRecognizer()
         tapG.addTarget(self, action: "startTimer")
@@ -47,7 +48,7 @@ class Timer: UIView {
         
         timerImage.addSubview(self.progressIndicatorView)
         progressIndicatorView.backgroundColor = UIColor.clearColor()
-        progressIndicatorView.alpha = 0.4
+        progressIndicatorView.alpha = 0.45
         let scaleTrans = CGAffineTransformMakeScale(-1, 1)
         let angle = CGAffineTransformMakeRotation((90.0 * CGFloat(M_PI)) / 180.0)
         
@@ -79,6 +80,7 @@ class Timer: UIView {
         currentTimerValue = timerValue
         timerValueLabel.text = getStringForTimer()
         progressIndicatorView.progress = 0
+        self.timerValueLabel.text = ""
     }
     
     func getStringForTimer() -> String {

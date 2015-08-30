@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		77E91E871B911C7F008638E9 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */; };
+		77E91E891B91E549008638E9 /* glif11.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E881B91E549008638E9 /* glif11.png */; };
+		77E91E8F1B91F09D008638E9 /* roshan1osvg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E8E1B91F09D008638E9 /* roshan1osvg.png */; };
+		77E91E911B920051008638E9 /* fon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E901B920051008638E9 /* fon.png */; };
+		77E91E951B9215E1008638E9 /* fonn.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E941B9215E1008638E9 /* fonn.png */; };
 		E911405D1B84779C0005B3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911405C1B84779C0005B3CD /* AppDelegate.swift */; };
 		E91140601B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E911405E1B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld */; };
 		E91140621B84779C0005B3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91140611B84779C0005B3CD /* ViewController.swift */; };
@@ -16,8 +20,6 @@
 		E911406A1B84779C0005B3CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91140681B84779C0005B3CD /* LaunchScreen.xib */; };
 		E91140761B84779C0005B3CD /* Dota_2_TimersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91140751B84779C0005B3CD /* Dota_2_TimersTests.swift */; };
 		E979FC761B847E520032674A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979FC751B847E520032674A /* Timer.swift */; };
-		E979FC791B8483400032674A /* roshan-dota-2-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E979FC781B8483400032674A /* roshan-dota-2-150x150.jpg */; };
-		E979FC7B1B848AA60032674A /* backgroundDotaImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E979FC7A1B848AA60032674A /* backgroundDotaImage.jpeg */; };
 		E9FB9F201B9094DB009A3064 /* TimerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */; };
 		E9FB9F301B90B673009A3064 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F2F1B90B673009A3064 /* AdSupport.framework */; };
 		E9FB9F321B90B686009A3064 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F311B90B686009A3064 /* AudioToolbox.framework */; };
@@ -50,6 +52,10 @@
 		77E91E831B911C66008638E9 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
 		77E91E841B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		77E91E851B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		77E91E881B91E549008638E9 /* glif11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glif11.png; sourceTree = "<group>"; };
+		77E91E8E1B91F09D008638E9 /* roshan1osvg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roshan1osvg.png; sourceTree = "<group>"; };
+		77E91E901B920051008638E9 /* fon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fon.png; sourceTree = "<group>"; };
+		77E91E941B9215E1008638E9 /* fonn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fonn.png; sourceTree = "<group>"; };
 		E91140571B84779B0005B3CD /* Dota 2 Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E911405B1B84779C0005B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E911405C1B84779C0005B3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +68,6 @@
 		E91140741B84779C0005B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91140751B84779C0005B3CD /* Dota_2_TimersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_2_TimersTests.swift; sourceTree = "<group>"; };
 		E979FC751B847E520032674A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
-		E979FC781B8483400032674A /* roshan-dota-2-150x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roshan-dota-2-150x150.jpg"; sourceTree = "<group>"; };
-		E979FC7A1B848AA60032674A /* backgroundDotaImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundDotaImage.jpeg; sourceTree = "<group>"; };
 		E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Dota 2 Timers/GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerProgressView.swift; sourceTree = "<group>"; };
 		E9FB9F2F1B90B673009A3064 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -206,8 +210,10 @@
 		E979FC771B8483200032674A /* Img */ = {
 			isa = PBXGroup;
 			children = (
-				E979FC781B8483400032674A /* roshan-dota-2-150x150.jpg */,
-				E979FC7A1B848AA60032674A /* backgroundDotaImage.jpeg */,
+				77E91E881B91E549008638E9 /* glif11.png */,
+				77E91E941B9215E1008638E9 /* fonn.png */,
+				77E91E901B920051008638E9 /* fon.png */,
+				77E91E8E1B91F09D008638E9 /* roshan1osvg.png */,
 			);
 			name = Img;
 			sourceTree = "<group>";
@@ -292,11 +298,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E91E951B9215E1008638E9 /* fonn.png in Resources */,
 				E91140651B84779C0005B3CD /* Main.storyboard in Resources */,
+				77E91E911B920051008638E9 /* fon.png in Resources */,
 				E911406A1B84779C0005B3CD /* LaunchScreen.xib in Resources */,
-				E979FC7B1B848AA60032674A /* backgroundDotaImage.jpeg in Resources */,
-				E979FC791B8483400032674A /* roshan-dota-2-150x150.jpg in Resources */,
+				77E91E8F1B91F09D008638E9 /* roshan1osvg.png in Resources */,
 				E91140671B84779C0005B3CD /* Images.xcassets in Resources */,
+				77E91E891B91E549008638E9 /* glif11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

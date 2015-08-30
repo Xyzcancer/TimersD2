@@ -11,7 +11,7 @@ import UIKit
 class TimerProgressView: UIView {
     
     let circlePathLayer = CAShapeLayer()
-    let circleRadius: CGFloat = 50.0
+    let circleRadius: CGFloat = 35.8
 
     
     
