@@ -9,7 +9,6 @@
 import UIKit
 import GoogleMobileAds
 
-
 class ViewController: UIViewController {
     
     @IBOutlet weak var bannerView: GADBannerView!
@@ -23,7 +22,7 @@ class ViewController: UIViewController {
         self.bannerView.adUnitID = "ca-app-pub-3940256099942544/6300978111"
         self.bannerView.rootViewController = self
         
-        var request = GADRequest()
+        let request = GADRequest()
         
         self.bannerView.loadRequest(request)
         

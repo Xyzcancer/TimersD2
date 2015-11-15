@@ -30,7 +30,7 @@ class Timer: UIView {
         self.addSubview(view)
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         currentTimerValue = timerValue
         self.timerImage = UIImageView(frame: CGRectMake(0, 0, 265, 200))
@@ -54,7 +54,7 @@ class Timer: UIView {
         
         progressIndicatorView.transform = CGAffineTransformConcat(scaleTrans,angle)
         progressIndicatorView.frame = bounds
-        progressIndicatorView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        progressIndicatorView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
     }
     
     
@@ -85,8 +85,8 @@ class Timer: UIView {
     
     func getStringForTimer() -> String {
     
-        var minutes = currentTimerValue / 60
-        var seconds = currentTimerValue - 60 * minutes
+        let minutes = currentTimerValue / 60
+        let seconds = currentTimerValue - 60 * minutes
         if seconds < 10 {
             return "\(minutes):0\(seconds)"
         }
