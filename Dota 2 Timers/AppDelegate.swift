@@ -18,8 +18,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         UIApplication.sharedApplication().statusBarStyle = .Default
+        
+        
+        if(UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:"))) {
+            UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: .Alert | .Badge, categories: nil))
+        }
+        
+        
         return true
     }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        
+        
+        
+        let alert = UIAlertView()
+        alert.title = notification.alertBody!
+        alert.addButtonWithTitle("Understod")
+        alert.show()
+        
+        
+        application.applicationIconBadgeNumber = 0
+    }
+    
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,6 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
+<<<<<<< HEAD
         self.saveContext()
     }
 
@@ -116,7 +139,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         }
+=======
+        
+>>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
     }
 
+   
 }
 

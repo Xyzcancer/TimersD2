@@ -9,11 +9,16 @@
 import UIKit
 
 class Timer: UIView {
+    
+    enum TimerType {
+    
+     case   Roshan, Glyph
+    }
     var timerValue : Int32!
     var currentTimerValue : Int32!
     var timerImage: UIImageView!
     var timerValueLabel: UILabel!
-    
+    var notificationArray: NSMutableArray!
     let progressIndicatorView = TimerProgressView(frame: CGRectZero)
     
     var timerStep:CGFloat {
@@ -21,8 +26,9 @@ class Timer: UIView {
             return CGFloat(currentTimerValue) * ( 1 / CGFloat(timerValue) )
         }
     }
-    //var view:UIView!
+    
     var timer = NSTimer()
+    var timerType: TimerType!
     
     override init (frame:CGRect) {
         super.init(frame: frame)
@@ -51,6 +57,7 @@ class Timer: UIView {
         progressIndicatorView.alpha = 0.45
         let scaleTrans = CGAffineTransformMakeScale(-1, 1)
         let angle = CGAffineTransformMakeRotation((90.0 * CGFloat(M_PI)) / 180.0)
+        self.notificationArray = NSMutableArray()
         
         progressIndicatorView.transform = CGAffineTransformConcat(scaleTrans,angle)
         progressIndicatorView.frame = bounds
@@ -68,8 +75,10 @@ class Timer: UIView {
             timerValueLabel.text = getStringForTimer()
             let aSelector: Selector = "updateTime"
             timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: aSelector, userInfo: nil, repeats: true)
+            self.setUpLocalNotificationFromTimer()
         } else {
             
+            self.cancelAllTimersNotification()
             stopTimer()
         }
     }
@@ -101,11 +110,48 @@ class Timer: UIView {
         }
         
         progressIndicatorView.progress =  timerStep
-
         currentTimerValue = currentTimerValue - 1
         timerValueLabel.text = getStringForTimer()
-
     }
+    
+    
+    func setUpLocalNotificationFromTimer() {
+        if timerType == TimerType.Roshan {
+            
+            // need send 3 notify
+            self.notificationArray.removeAllObjects()
+            self.sendNotification(WithText: "Aegis is lost", andFireTime: 300)
+            self.sendNotification(WithText: "Roshan will rise about 3 minutes", andFireTime: 480)
+            self.sendNotification(WithText: "Roshan is alive", andFireTime: 660)
+        } else {
+            if self.notificationArray.count > 0 {
+                self.notificationArray.removeAllObjects()
+            }
+            
+            self.sendNotification(WithText: "Your enemies have glyph! Remember this", andFireTime: 300)
+        }
+    }
+    
+    
+    func cancelAllTimersNotification() {
+        for notify in self.notificationArray {
+        
+        UIApplication.sharedApplication().cancelLocalNotification(notify as! UILocalNotification)
+        }
+    }
+    
+    func sendNotification(WithText text:String , andFireTime fireTime:NSTimeInterval) {
+        var localNotification = UILocalNotification()
+        localNotification.fireDate = NSDate(timeIntervalSinceNow: fireTime)
+        localNotification.alertBody = text
+        localNotification.timeZone = NSTimeZone.defaultTimeZone()
+        localNotification.applicationIconBadgeNumber = UIApplication.sharedApplication().applicationIconBadgeNumber + 1
+        self.notificationArray.addObject(localNotification)
+        
+        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
+    }
+    
+    
     
     
 }

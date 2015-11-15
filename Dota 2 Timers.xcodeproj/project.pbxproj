@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		77195E0F1BF8F339002285CC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */; };
+=======
+>>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 		77E91E891B91E549008638E9 /* glif11.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E881B91E549008638E9 /* glif11.png */; };
 		77E91E8F1B91F09D008638E9 /* roshan1osvg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E8E1B91F09D008638E9 /* roshan1osvg.png */; };
 		77E91E911B920051008638E9 /* fon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E901B920051008638E9 /* fon.png */; };
 		77E91E951B9215E1008638E9 /* fonn.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E941B9215E1008638E9 /* fonn.png */; };
 		E911405D1B84779C0005B3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911405C1B84779C0005B3CD /* AppDelegate.swift */; };
-		E91140601B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E911405E1B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld */; };
 		E91140621B84779C0005B3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91140611B84779C0005B3CD /* ViewController.swift */; };
 		E91140651B84779C0005B3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91140631B84779C0005B3CD /* Main.storyboard */; };
 		E91140671B84779C0005B3CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91140661B84779C0005B3CD /* Images.xcassets */; };
@@ -31,6 +33,7 @@
 		E9FB9F3E1B90B6E0009A3064 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F3D1B90B6E0009A3064 /* MessageUI.framework */; };
 		E9FB9F401B90B6EE009A3064 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F3F1B90B6EE009A3064 /* StoreKit.framework */; };
 		E9FB9F421B90B6FF009A3064 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FB9F411B90B6FF009A3064 /* SystemConfiguration.framework */; };
+		E9FD73171B959895009ED114 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FD73161B959895009ED114 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		77E91E7F1B911C66008638E9 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
-		77E91E801B911C66008638E9 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
-		77E91E811B911C66008638E9 /* GADMEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
-		77E91E821B911C66008638E9 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
-		77E91E831B911C66008638E9 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
-		77E91E841B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		77E91E851B911C66008638E9 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		77E91E881B91E549008638E9 /* glif11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glif11.png; sourceTree = "<group>"; };
 		77E91E8E1B91F09D008638E9 /* roshan1osvg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roshan1osvg.png; sourceTree = "<group>"; };
 		77E91E901B920051008638E9 /* fon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fon.png; sourceTree = "<group>"; };
@@ -59,7 +54,6 @@
 		E91140571B84779B0005B3CD /* Dota 2 Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E911405B1B84779C0005B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E911405C1B84779C0005B3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E911405F1B84779C0005B3CD /* Dota_2_Timers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dota_2_Timers.xcdatamodel; sourceTree = "<group>"; };
 		E91140611B84779C0005B3CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E91140641B84779C0005B3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E91140661B84779C0005B3CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -68,7 +62,6 @@
 		E91140741B84779C0005B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91140751B84779C0005B3CD /* Dota_2_TimersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_2_TimersTests.swift; sourceTree = "<group>"; };
 		E979FC751B847E520032674A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
-		E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Dota 2 Timers/GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerProgressView.swift; sourceTree = "<group>"; };
 		E9FB9F2F1B90B673009A3064 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		E9FB9F311B90B686009A3064 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -80,6 +73,7 @@
 		E9FB9F3D1B90B6E0009A3064 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		E9FB9F3F1B90B6EE009A3064 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E9FB9F411B90B6FF009A3064 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E9FD73161B959895009ED114 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Dota 2 Timers/GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				77195E0F1BF8F339002285CC /* GoogleMobileAds.framework in Frameworks */,
+=======
+				E9FD73171B959895009ED114 /* GoogleMobileAds.framework in Frameworks */,
+>>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				E9FB9F421B90B6FF009A3064 /* SystemConfiguration.framework in Frameworks */,
 				E9FB9F401B90B6EE009A3064 /* StoreKit.framework in Frameworks */,
 				E9FB9F3E1B90B6E0009A3064 /* MessageUI.framework in Frameworks */,
@@ -111,35 +109,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77E91E7C1B911C66008638E9 /* GoogleMobileAdsSdkiOS-7.4.1 */ = {
-			isa = PBXGroup;
-			children = (
-				77E91E7D1B911C66008638E9 /* GoogleMobileAds.framework */,
-				77E91E7E1B911C66008638E9 /* Mediation Adapters */,
-				77E91E851B911C66008638E9 /* README.txt */,
-			);
-			name = "GoogleMobileAdsSdkiOS-7.4.1";
-			path = "Dota 2 Timers/GoogleMobileAdsSdkiOS-7.4.1";
-			sourceTree = "<group>";
-		};
-		77E91E7E1B911C66008638E9 /* Mediation Adapters */ = {
-			isa = PBXGroup;
-			children = (
-				77E91E7F1B911C66008638E9 /* GADMAdNetworkAdapterProtocol.h */,
-				77E91E801B911C66008638E9 /* GADMAdNetworkConnectorProtocol.h */,
-				77E91E811B911C66008638E9 /* GADMEnums.h */,
-				77E91E821B911C66008638E9 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
-				77E91E831B911C66008638E9 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
-				77E91E841B911C66008638E9 /* README.txt */,
-			);
-			path = "Mediation Adapters";
-			sourceTree = "<group>";
-		};
 		E911404E1B84779B0005B3CD = {
 			isa = PBXGroup;
 			children = (
-				77E91E7C1B911C66008638E9 /* GoogleMobileAdsSdkiOS-7.4.1 */,
-				E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */,
+				E9FD73161B959895009ED114 /* GoogleMobileAds.framework */,
 				E9FB9F411B90B6FF009A3064 /* SystemConfiguration.framework */,
 				E9FB9F3F1B90B6EE009A3064 /* StoreKit.framework */,
 				E9FB9F3D1B90B6E0009A3064 /* MessageUI.framework */,
@@ -171,12 +144,11 @@
 				E979FC771B8483200032674A /* Img */,
 				E911405C1B84779C0005B3CD /* AppDelegate.swift */,
 				E91140611B84779C0005B3CD /* ViewController.swift */,
+				E979FC751B847E520032674A /* Timer.swift */,
+				E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */,
 				E91140631B84779C0005B3CD /* Main.storyboard */,
 				E91140661B84779C0005B3CD /* Images.xcassets */,
 				E91140681B84779C0005B3CD /* LaunchScreen.xib */,
-				E979FC751B847E520032674A /* Timer.swift */,
-				E9FB9F1F1B9094DB009A3064 /* TimerProgressView.swift */,
-				E911405E1B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld */,
 				E911405A1B84779B0005B3CD /* Supporting Files */,
 			);
 			path = "Dota 2 Timers";
@@ -326,7 +298,6 @@
 			files = (
 				E91140621B84779C0005B3CD /* ViewController.swift in Sources */,
 				E9FB9F201B9094DB009A3064 /* TimerProgressView.swift in Sources */,
-				E91140601B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld in Sources */,
 				E911405D1B84779C0005B3CD /* AppDelegate.swift in Sources */,
 				E979FC761B847E520032674A /* Timer.swift in Sources */,
 			);
@@ -472,6 +443,12 @@
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
+<<<<<<< HEAD
+=======
+					"$(PROJECT_DIR)/Dota",
+					2,
+					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
+>>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				);
 				INFOPLIST_FILE = "Dota 2 Timers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +475,12 @@
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
+<<<<<<< HEAD
+=======
+					"$(PROJECT_DIR)/Dota",
+					2,
+					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
+>>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				);
 				INFOPLIST_FILE = "Dota 2 Timers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -571,19 +554,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E911405E1B84779C0005B3CD /* Dota_2_Timers.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E911405F1B84779C0005B3CD /* Dota_2_Timers.xcdatamodel */,
-			);
-			currentVersion = E911405F1B84779C0005B3CD /* Dota_2_Timers.xcdatamodel */;
-			path = Dota_2_Timers.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E911404F1B84779B0005B3CD /* Project object */;
 }
