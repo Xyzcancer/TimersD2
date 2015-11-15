@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		77195E0F1BF8F339002285CC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D7AC6B1B90C61700117343 /* GoogleMobileAds.framework */; };
-=======
->>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
+
 		77E91E891B91E549008638E9 /* glif11.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E881B91E549008638E9 /* glif11.png */; };
 		77E91E8F1B91F09D008638E9 /* roshan1osvg.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E8E1B91F09D008638E9 /* roshan1osvg.png */; };
 		77E91E911B920051008638E9 /* fon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91E901B920051008638E9 /* fon.png */; };
@@ -81,11 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				77195E0F1BF8F339002285CC /* GoogleMobileAds.framework in Frameworks */,
-=======
+
 				E9FD73171B959895009ED114 /* GoogleMobileAds.framework in Frameworks */,
->>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				E9FB9F421B90B6FF009A3064 /* SystemConfiguration.framework in Frameworks */,
 				E9FB9F401B90B6EE009A3064 /* StoreKit.framework in Frameworks */,
 				E9FB9F3E1B90B6E0009A3064 /* MessageUI.framework in Frameworks */,
@@ -443,12 +437,9 @@
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
-<<<<<<< HEAD
-=======
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
->>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				);
 				INFOPLIST_FILE = "Dota 2 Timers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -475,12 +466,9 @@
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
-<<<<<<< HEAD
-=======
 					"$(PROJECT_DIR)/Dota",
 					2,
 					"Timers/GoogleMobileAdsSdkiOS-7.4.1",
->>>>>>> fde25d3136c8b6af2001d71504b56a6509ef7e20
 				);
 				INFOPLIST_FILE = "Dota 2 Timers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
